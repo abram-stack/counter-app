@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 // stateless Functional Component
+// we can destructuring the props passed, instead of using this.props.totalCounters
 const NavBar = ({totalCounters}) => {
 
   return (
